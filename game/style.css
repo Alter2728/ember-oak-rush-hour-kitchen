@@ -1,0 +1,40 @@
+/* Ember & Oak — Rush Hour Kitchen: page shell styling. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #241a12; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #fff8ec;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap { width: min(1280px, 100vw); padding: 12px; }
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  background: #2b2118;
+}
+#bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+#mute {
+  font: inherit;
+  color: #241a12;
+  background: #ffd166;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+#mute:hover { background: #ffcf5c; }
+#help { font-size: 13px; line-height: 1.5; color: rgba(255, 248, 236, 0.75); margin: 8px 0 0; }
